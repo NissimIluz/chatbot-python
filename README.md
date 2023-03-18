@@ -1,4 +1,6 @@
 # Chatbot
+chatbot (using cmd). python 3.10.
+Allowing user to conversation with the bot by a modifiable script (json file) that includes the definition of messages, validators, error messages and success messages.
 
 ## How to update:
 To update the bot messages, enter to chat 'instances. Jason' and executes the requested changes
