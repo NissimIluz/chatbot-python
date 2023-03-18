@@ -1,0 +1,129 @@
+{
+    "instances": {
+        "first-name": {
+            "name": "שם פרטי",
+            "message": "מה שמך הפרטי?",
+            "validators": [
+                "he-text",
+                "max-length@10",
+                "min-length@2"
+            ],
+            "success-messages": "היי , נעים להכיר",
+            "error-messages": [
+                {
+                    "key": "he-text",
+                    "message": "יש להזין רק אותיות בעיברית"
+                },
+                {
+                    "key": "max-length",
+                    "message": "מממ.. זה ארוך מידי, בוא נקצר"
+                },
+                {
+                    "key": "min-length",
+                    "message": "מממ.. זה קצר מידי"
+                }
+            ]
+        },
+        "last-name": {
+            "name": "שם משפחה",
+            "message": "ומה שם המשפחה שלך?",
+            "validators": [
+                "he-text",
+                "max-length@10",
+                "min-length@2"
+            ],
+            "error-messages": [
+                {
+                    "key": "he-text",
+                    "message": "יש להזין רק אותיות בעיברית"
+                },
+                {
+                    "key": "max-length",
+                    "message": "מממ.. זה ארוך מידי, בוא נקצר"
+                },
+                {
+                    "key": "min-length",
+                    "message": "מממ.. זה קצר מידי"
+                }
+            ]
+        },
+        "phone": {
+            "name": "מספר טלפון",
+            "message": "מה מספר הטלפון שלך?",
+            "validators": [
+                "phone"
+            ],
+            "success-messages": "אל תדאג, אנחנו לא נעביר את המספר שלך לאף אחד"
+        },
+        "email": {
+            "name": "מייל",
+            "message": "מה האימייל שלך?",
+            "validators": [
+                "email"
+            ],
+            "success-messages": "אל תדאג, אנחנו לא נעביר את המייל שלך לאף אחד",
+            "error-messages": [
+                {
+                    "key": "email",
+                    "message": "המייל אינו חוקי. בוא ננסה שוב"
+                }
+            ]
+        },
+        "workplace": {
+            "name": "מקום עבודה",
+            "message": "היכן אתה עובד כיום?",
+            "validators": [
+                "he-text",
+                "max-length@30",
+                "min-length@2"
+            ]
+        },
+        "id": {
+            "name": "ת\"ז",
+            "message": "אנא אכנס ת\"ז?",
+            "validators": [
+                "number",
+                "israel-id"
+            ],
+            "error-messages": [
+                {
+                    "key": "default",
+                    "message": "ניראה שהת.ז. שהוזנה אינה נכונה. בוא ננסה שוב"
+                }
+            ]
+        },
+        "address": {
+            "name": "כתובת",
+            "message": "אנא אכנס את כתובת המגורים שלך?.",
+            "validators": [
+                "he-text",
+                "max-length@30",
+                "min-length@5"
+            ]
+        },
+        "studies": {
+            "name": "לימודים",
+            "message": "מה ההשכלה שלך?"
+        },
+        "hobbies": {
+            "name": "תחביבים",
+            "message": "מה התחביבים שלך",
+            "validators": [
+                "he-text"
+            ]
+        },
+        "additional": {
+            "name": "נוסף",
+            "message": "משהו נוסף שתרצה להוסיף?"
+        }
+    },
+    "static": {
+        "congratulate": "שלום",
+        "all_done": "תודה רבה על שיתוף הפעולה.",
+        "failed": "משהו לא עבד, בוא ננסה שוב.",
+        "success": "רשמתי.",
+        "error_message": "שגיאה! אנא פנה לשירות לקוחות",
+        "welcome_back": "ברוך שובך",
+        "exit": "שלום ולהתראות."
+    }
+}
