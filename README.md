@@ -23,8 +23,12 @@ main.py
 
 use the chatbot constructor to create new chatbot. pass to the constructor array of all messages ids.
 
-you can edit the messages including message validator by edit src\chatbot\chat instances.json.
+
+you can edit the messages including message validator by edit ```src\chatbot\chat instances.json.```
+
+
 for example: 
+```
     "message_name": {
         "name": "message name",
         "message": "message ",
@@ -42,7 +46,10 @@ for example:
             }
         ]
     }
+```
+
 
 validators: number, phone, he-text, email, max-length@number, min-length@number, israel-id, pattern@regular_expression
+
 
 dont forget the pass the new message the to constructor after adding messages src\chatbot\chat instances.json.
